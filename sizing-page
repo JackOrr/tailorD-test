@@ -1,0 +1,142 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailorsizing.css" />
+    <script src="tailord.js"></script>
+
+    <title>TailorD</title>
+  </head>
+  <body>
+    <!-- <section id="overlay">
+      <img
+        src="https://i.etsystatic.com/22919727/r/il/a3d044/2775651719/il_1588xN.2775651719_cx62.jpg"
+        alt="logo"
+        id="logo"
+      />
+    </section> -->
+
+    <form id="sizedata">
+      <h1>Sizing</h1>
+      <section class="Height">
+        <label for="Height">How tall are you?</label>
+        <input type="text" name="height" id="Height" size="4" />
+        <label>Ft</label>
+        <input type="text" name="height" id="Height" size="4" />
+        <label>In</label>
+      </section>
+
+      <section class="Weight">
+        <label for="Weight">How much do you weigh?</label>
+        <input type="number" name="Weight" id="Weight" size="4" />
+        <label>ilbs</label>
+      </section>
+
+      <section class="Fit Style">
+        <label for="Fit">How do you want your clothes to fit?</label>
+        <br />
+        <span>Loose</span>
+        <input type="range" name="Fit" id="Fit" value="10" min="0" max="20" />
+        <span>Tight</span>
+      </section>
+
+      <section class="Gender">
+        <span>What body build do you have?</span>
+        <br />
+        <input type="radio" name="Gender" id="Male" value="Male" />
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Female" value="Female" />
+        <label for="Female">Female</label>
+      </section>
+
+      <section class="Age">
+        <label for="Age">How old are you?</label>
+        <select name="Age" id="Age">
+          <option value="16-18">16-18</option>
+          <option value="19-25">19-25</option>
+          <option value="25-35">25-35</option>
+          <option value="35-45">35-45</option>
+          <option value="45-65">45-65</option>
+          <option value="65-85">65-85</option>
+          <option value="85+">85+</option>
+        </select>
+      </section>
+
+      <section class="submission">
+        <input
+          type="submit"
+          id="next"
+          name="next"
+          value="Next"
+          onclick="test()"
+        />
+      </section>
+    </form>
+
+    <script src="tailord.js"></script>
+  </body>
+
+  <div></div>
+
+  <!--
+  <h1>NEXT PAGE</h1>
+
+  <h2>Anything else?</h2>
+  <form>
+    <section>
+      <input type="checkbox" name="differences" id="Larms" value="Larms" />
+      <label for="Larms">Long Arms</label>
+      <input type="checkbox" name="differences" id="Sarms" value="Sarms" />
+      <label for="Sarms">Short Arms</label>
+      <input type="checkbox" name="differences" id="Llegs" value="Llegs" />
+      <label for="Llegs">Long Legs</label>
+      <input type="checkbox" name="differences" id="Slegs" value="Slegs" />
+      <label for="Slegs">Short Legs</label>
+    </section>
+
+    <section>
+      <section class="submission">
+        <input type="submit" id="next2" name="next2" value="Next" />
+      </section>
+    </section>
+  </form>
+
+  <h1>NEXT PAGE</h1>
+  <h2>MALE</h2>
+  <div class="sketchfab-embed-wrapper">
+    <iframe
+      title="HUMAN_BODY"
+      frameborder="0"
+      allowfullscreen
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+      allow="autoplay; fullscreen; xr-spatial-tracking"
+      xr-spatial-tracking
+      execution-while-out-of-viewport
+      execution-while-not-rendered
+      web-share
+      src="https://sketchfab.com/models/f022e4a3641943328b2fbfdf0f7c3e1e/embed"
+    >
+    </iframe>
+  </div>
+
+  <h2>FEMALE</h2>
+  <div class="sketchfab-embed-wrapper">
+    <iframe
+      title="Body Base"
+      frameborder="0"
+      allowfullscreen
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+      allow="autoplay; fullscreen; xr-spatial-tracking"
+      xr-spatial-tracking
+      execution-while-out-of-viewport
+      execution-while-not-rendered
+      web-share
+      src="https://sketchfab.com/models/3cb6f00cbbf14768b9021f02b1e294fa/embed"
+    >
+    </iframe>
+  </div>
+  -->
+</html>
