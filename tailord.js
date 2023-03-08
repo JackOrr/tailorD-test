@@ -13,3 +13,8 @@ function test() {
   var female = localStorage.getItem("Female", feid);
   var age = localStorage.getItem("Age", aid);
 }
+
+document.getElementById("next").addEventListener("click", page2);
+function page2() {
+  window.location.href = "https://jackorr.github.io/tailorD-test/pg2tailord.html";
+}
